@@ -40,7 +40,7 @@ Cramer-Wold metric* on ICONIP in Sydney, Australia.
 
 
 
-<h1 id="pub"> Selected Publications </h1>
+<h1 id="publications"> Selected Publications </h1>
 
 <div style="margin-bottom: 1em">
     <img src="/images/givens.png" alt="The Exact Orthogonal Initialization Scheme" style="width: 29%; display: inline-block; vertical-align: middle; padding: 5px">
