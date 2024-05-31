@@ -1,49 +1,111 @@
 ---
 permalink: /
-title: "academicpages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: ""
+excerpt: "About me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [academicpages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
 
-A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, academicpages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+<h1 id="aboutme"> About me </h1>
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over -- just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+I am a PhD Student at Jagiellonian Univeristy in Kraków, Poland. I am working in the Group for Machine Learning Research ([GMUM](https://gmum.net/)) led by prof. Jacek Tabor. My main research interests is the analysis and development of sparse neural networks. In particular, I focus on advancing tools that allow the network to change and adapt already during the training.   
 
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this repository](https://github.com/academicpages/academicpages.github.io) by clicking the "fork" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
 
-Create content & metadata
-------
-For site content, there is one markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+<h1 id="news"> News </h1>
 
-**Markdown generator**
+- <span style="color:#D58A94">**(May 2024)**</span> Our work, [*Sparser, Better, Deeper, Stronger: Improving Sparse Training with Exact Orthogonal Initialization*](https://icml.cc/virtual/2024/poster/32889) has been accepted to **ICML 2024**! See in Vienna and many thanks to co-authors!
+- <span style="color:#D58A94">**(December 2023)**</span> At **NeuRIPS 2023** presenting two of my papers,  [*Trust Your ∇ : Gradient-based Intervention Targeting for Causal Discovery*](https://arxiv.org/abs/2211.13715) and [*Fantastic Weights and How to Find Them: Where to Prune in Dynamic Sparse Training*](https://arxiv.org/abs/2306.12230)! Be sure to drop by at the poster session! 
+- <span style="color:#D58A94">**(October 2023)**</span> Super excited to start my internship as Student Researcher in **Google DeepMind in Montreal**, where I will be workig on efficeint adaptation in task transfer! 
+- <span style="color:#D58A94">**(May 2023)**</span> See you at the  [ICLR23 SNN Workshop](https://www.sparseneural.net/organizers)  in Kigali, Rwanda! Many thanks to all other organizers!
+- <span style="color:#D58A94">**(January 2023)**</span> I am joining [IDEAS NCBR](https://ideas-ncbr.pl/en/) as Student PhD Researcher working on efficient deep neural networks and sparse architectures.   
+- <span style="color:#D58A94">**(September 2022)**</span> Starting a research internship at Univeristy of Twente, Netherlands in the VScAIL group led by dr. Decebal Mocanu.
+- <span style="color:#D58A94">**(July 2022)**</span> Presenting  our work, [*Connectivity Properties of Neural Networks Under Performance-Resources Trade-off*](https://dynn-icml2022.github.io/papers/paper_24.pdf) at the Dynamic Neural Networks, ICML 2022 Workshop.
+- <span style="color:#D58A94">**(July 2022)**</span> The [MLSS^N](https://mlss.mlinpl.org/) school if finally here! Thanks to all other organizers and volunteers for the enormous work and passion put into making the event possible.  The lectures are available [here](https://www.youtube.com/playlist?list=PL3aJIq_dM1xUpQxVgP4AySZAJtdVx-2qI).
+- <span style="color:#D58A94">**(June 2022)**</span> Two my papers, *Discovering wiring patterns influencing neural networks performance* and *On the relationship between disentanglement and
+multi-task learning* have been accepted to ECML PKDD 2022.
+- <span style="color:#D58A94">**(April 2022)**</span> I presented our work on analyzing neural network architectures based on random graphs at the 
+meeting *[From Neuroscience to Artificially Intelligent Systems (NAISys)](https://meetings.cshl.edu/abstracts.aspx?meet=NAISYS&year=22)* in Cold Spring Harbor Laboratory (CSHL), USA.
+- <span style="color:#D58A94">**(November 2021)**</span> - Co-organized the [ML in PL Conference 2021](https://conference2021.mlinpl.org).
+- <span style="color:#D58A94">**(November 2021)**</span> - I've participated in the *Google Women in Tech Mentoring Program* (online), together with 31 selected students across Poland.
+- <span style="color:#D58A94">**(September 2021)**</span> Our work *Non-Gaussian Gaussian Processes for Few Shot Regression* has been accepted to NeurIPS 2021.
+- <span style="color:#D58A94">**(July 2020)**</span> Co-organizing the Eastern European Machine Learning Summer School 2020 ([ECML 2020](https://www.eeml.eu/previous-editions/eeml2020)).
+- <span style="color:#D58A94">**(December 2019)**</span> Presenting our work on *Non-linear ICA based on
+Cramer-Wold metric* on ICONIP in Sydney, Australia. 
+- <span style="color:#D58A94">**(November 2019)**</span> Co-conducting workshops in reinforcement learning at the [MLinPL](https://conference.mlinpl.org/) conference.
+- <span style="color:#D58A94">**(October 2019)**</span> I've started my PhD studies at Jagiellonian Univeristy in Kraków, Poland.
 
-I have also created [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual markdown files that will be properly formatted for the academicpages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the markdown files, then commit and push them to the GitHub repository.
 
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
 
-Example: editing a markdown file for a talk
-![Editing a markdown file for a talk](/images/editing-talk.png)
+<h1 id="pub"> Selected Publications </h1>
 
-For more info
-------
-More info about configuring academicpages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+<div style="margin-bottom: 1em">
+    <img src="/images/givens.png" alt="The Exact Orthogonal Initialization Scheme" style="width: 29%; display: inline-block; vertical-align: middle; padding: 5px">
+    <div style="display: inline-block; padding: 10px; vertical-align: middle; width: 69%">
+        <strong style="color:#D58A94">Sparser, Better, Deeper, Stronger: Improving Sparse Training with Exact Orthogonal Initialization</strong> <br/>
+        Aleksandra Nowak, Łukasz Gniecki, Filip Szatkowski, Jacek Tabor <br/>
+        <b>ICML 2024</b> <br/>
+        <a href="https://icml.cc/virtual/2024/poster/32889">[Paper]</a>
+    </div>
+</div>
+
+<div style="margin-bottom: 1em">
+    <img src="/images/performance.png" alt="The DST performance with respect to pruning criterion" style="width: 29%; display: inline-block; vertical-align: middle; padding: 5px">
+    <div style="display: inline-block; padding: 10px; vertical-align: middle; width: 69%">
+        <strong style="color:#D58A94">Fantastic Weights and How to Find Them: Where to Prune in Dynamic Sparse Training</strong> <br/>
+        Aleksandra Nowak, Bram Grooten, Decebal C. Mocanu, Jacek Tabor <br/>
+        <b>NeurIPS 2023</b> <br/>
+        <a href="https://arxiv.org/abs/2306.12230">[Paper]</a>
+    </div>
+</div>
+
+<div style="margin-bottom: 1em">
+    <img src="/images/trust.png" alt="The GIT Scheme" style="width: 29%; display: inline-block; vertical-align: middle; padding: 5px">
+    <div style="display: inline-block; padding: 10px; vertical-align: middle; width: 69%">
+        <strong style="color:#D58A94"> Trust Your ∇ : Gradient-based Intervention Targeting for Causal Discovery</strong> <br/>
+        Mateusz Olko*, Michał Zając*, Aleksandra Nowak*, Nino Scherrer, Yashas Annadani, Stefan Bauer, Łukasz Kuciński, Piotr Miłoś <br/>
+        <b>NeurIPS 2023</b> <br/>
+        <a href="https://arxiv.org/abs/2211.13715">[Paper]</a>
+    </div>
+</div>
+
+<div style="margin-bottom: 1em">
+    <img src="/images/all_top.png" alt="Top Random Architectures" style="width: 29%; display: inline-block; vertical-align: middle; padding: 5px">
+    <div style="display: inline-block; padding: 10px; vertical-align: middle; width: 69%">
+        <strong style="color:#D58A94">Discovering wiring patterns influencing neural networks performance</strong> <br/>
+        Aleksandra Nowak, Romuald Janik <br/>
+        <b>ECML PKDD 2022</b> <br/>
+        <a href="https://2022.ecmlpkdd.org/wp-content/uploads/2022/09/sub_1358.pdf">[Paper]</a>
+    </div>
+</div>
+
+<div style="margin-bottom: 1em">
+    <img src="/images/gnaw.png" alt="Pruned Network" style="width: 29%; display: inline-block; vertical-align: middle; padding: 5px">
+    <div style="display: inline-block; padding: 10px; vertical-align: middle; width: 69%">
+        <strong style="color:#D58A94">Neural Networks Adapting to Datasets: Learning Network Size and Topology</strong> <br/>
+        Romuald Janik, Aleksandra Nowak <br/>
+        <b>Dynamic Neural Networks, ICML 2022 Workshop</b> <br/>
+        <a href="https://arxiv.org/abs/2006.12195">[Paper]</a>
+    </div>
+</div>
+
+<div style="margin-bottom: 1em">
+    <img src="/images/NGGP.png" alt="The NGGP scheme" style="width: 29%; display: inline-block; vertical-align: middle; padding: 5px">
+    <div style="display: inline-block; padding: 10px; vertical-align: middle; width: 69%">
+        <strong style="color:#D58A94">Non-Gaussian Gaussian Processes for Few Shot Regression</strong> <br/>
+        Marcin Sendera, Jacek Tabor, Aleksandra Nowak, Andrzej Bedychaj, Massimiliano Patacchiola, Tomasz Trzcinski, Przemysław Spurek, Maciej Zieba <br/>
+        <b>NeurIPS 2021</b> <br/>
+        <a href="https://arxiv.org/abs/2110.13561">[Paper]</a>
+    </div>
+</div>
+
+
+
+
+
+
+
+
