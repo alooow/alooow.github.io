@@ -19,7 +19,7 @@ I am a PhD Student at Jagiellonian Univeristy in Kraków, Poland. I am working i
 
 - <span style="color:#D58A94">**(May 2024)**</span> Our work, [*Sparser, Better, Deeper, Stronger: Improving Sparse Training with Exact Orthogonal Initialization*](https://icml.cc/virtual/2024/poster/32889) has been accepted to **ICML 2024**! See in Vienna and many thanks to co-authors!
 - <span style="color:#D58A94">**(December 2023)**</span> At **NeuRIPS 2023** presenting two of my papers,  [*Trust Your ∇ : Gradient-based Intervention Targeting for Causal Discovery*](https://arxiv.org/abs/2211.13715) and [*Fantastic Weights and How to Find Them: Where to Prune in Dynamic Sparse Training*](https://arxiv.org/abs/2306.12230)! Be sure to drop by at the poster session! 
-- <span style="color:#D58A94">**(October 2023)**</span> Super excited to start my internship as Student Researcher in **Google DeepMind in Montreal**, where I will be workig on efficeint adaptation in task transfer! 
+- <span style="color:#D58A94">**(October 2023)**</span> Super excited to start my internship as Student Researcher in **Google DeepMind in Montreal**, where I will be workig on efficeint adaptation in transfer learning! 
 - <span style="color:#D58A94">**(May 2023)**</span> See you at the  [ICLR23 SNN Workshop](https://www.sparseneural.net/organizers)  in Kigali, Rwanda! Many thanks to all other organizers!
 - <span style="color:#D58A94">**(January 2023)**</span> I am joining [IDEAS NCBR](https://ideas-ncbr.pl/en/) as Student PhD Researcher working on efficient deep neural networks and sparse architectures.   
 - <span style="color:#D58A94">**(September 2022)**</span> Starting a research internship at Univeristy of Twente, Netherlands in the VScAIL group led by dr. Decebal Mocanu.
